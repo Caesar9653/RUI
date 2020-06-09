@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+  <context id="context1" targetRuntime="mybatis3">
+    <jdbcConnection connectionURL="jdbc:mysql://localhost:3306/project1? characterEncoding=utf8" driverClass="com.mysql.jdbc.Driver" password="965308" userId="root" />
+    <javaModelGenerator targetPackage="com.woniu.pojo" targetProject="Project1" />
+    <sqlMapGenerator targetPackage="com.woniu.mapper" targetProject="Project1"> </sqlMapGenerator>
+    <javaClientGenerator targetPackage="com.woniu.mapper" targetProject="Project1" type="XMLMAPPER" />
+    <table schema="project1" tableName="users">
+    </table>
+     <table schema="project1" tableName="roles">
+     </table>
+      <table schema="project1" tableName="powers">
+     </table>
+      <table schema="project1" tableName="rwp">
+     </table>
+      <table schema="project1" tableName="uwr">
+     </table>
+  </context>
+</generatorConfiguration>
